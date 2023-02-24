@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signin">
+
+    <EditText
+
+        android:id="@+id/input_signin_email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:text= "iway@gmail.com"
+        android:gravity="left"
+        android:background="@drawable/textviewborder"
+        android:hint="EMAIL"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:text= "12345678"
+        android:hint="Password"
+        android:background="@drawable/textviewborder"
+        android:id="@+id/input_signin_password"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:layout_centerInParent="true"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"/>
+
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Sign in"
+        android:layout_width="150dp"/>
+
+
+
+</LinearLayout>
